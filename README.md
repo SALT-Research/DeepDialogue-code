@@ -1,6 +1,6 @@
 # DeepDialogue
 
-**This repository will host the code and data for the paper:**
+This repository hosts the code and data for the paper:
 
 > **DeepDialogue: A Multi-Turn Emotionally-Rich Spoken Dialogue Dataset**  
 > Submitted to NeurIPS 2025  
@@ -8,15 +8,20 @@
 
 ## 📁 Code and Data
 
-The code and dataset will be released here soon. Stay tuned!
+### 🔧 Code
+The code to replicate our experiments on the speech emotion recognition (SER) task can be found in the `ser` directory.
+You can run the code using the following command:
 
-- 📄 Dataset access:
-  - [XTTS version](https://huggingface.co/datasets/SALT-Research/DeepDialogue-xtts)
-  - [Orpheus version](https://huggingface.co/datasets/SALT-Research/DeepDialogue-orpheus)
+```bash
+bash train.sh
+```
+This will execute the training script with the default parameters. You can modify the `train.sh` file to change the parameters as needed.
 
-## 🔧 Setup & Usage
+### 📚 Data
+The dataset is available in two versions, both on 🤗 HuggingFace:
+  - [🤗 XTTS version](https://huggingface.co/datasets/SALT-Research/DeepDialogue-xtts)
+  - [🤗 Orpheus version](https://huggingface.co/datasets/SALT-Research/DeepDialogue-orpheus)
 
-_TBD: Placeholder for installation and usage instructions._
 
 ## 📣 Citation
 
