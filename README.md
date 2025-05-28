@@ -3,8 +3,10 @@
 This repository hosts the code and data for the paper:
 
 > **DeepDialogue: A Multi-Turn Emotionally-Rich Spoken Dialogue Dataset**  
-> Submitted to NeurIPS 2025  
+> Submitted to NeurIPS 2025
 > [Project Website](https://salt-research.github.io/DeepDialogue)
+
+[![paper](https://img.shields.io/badge/Paper-arXiv-green)](https://arxiv.org/abs/2505.19978)
 
 ## 📁 Code and Data
 
@@ -40,4 +42,16 @@ The dataset is available in two versions, both on 🤗 HuggingFace:
 
 ## 📣 Citation
 
-_TBD: BibTeX citation will be added upon official release._
+If you use this dataset in your research, please cite our [paper](https://arxiv.org/abs/2505.19978):
+
+```
+@misc{koudounas2025deepdialoguemultiturnemotionallyrichspoken,
+      title={DeepDialogue: A Multi-Turn Emotionally-Rich Spoken Dialogue Dataset}, 
+      author={Alkis Koudounas and Moreno La Quatra and Elena Baralis},
+      year={2025},
+      eprint={2505.19978},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.19978}, 
+}
+```
