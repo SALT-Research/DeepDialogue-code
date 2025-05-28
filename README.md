@@ -3,7 +3,6 @@
 This repository hosts the code and data for the paper:
 
 > **DeepDialogue: A Multi-Turn Emotionally-Rich Spoken Dialogue Dataset**  
-> Submitted to NeurIPS 2025
 > [Project Website](https://salt-research.github.io/DeepDialogue)
 
 [![paper](https://img.shields.io/badge/Paper-arXiv-green)](https://arxiv.org/abs/2505.19978)
